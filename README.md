@@ -1,5 +1,5 @@
-# EWU Fight Song
+# Joshua Merrell
 
-> Lyric from your song
+> Web Application Development intro assignment
 
-## Citations
+![Image](https://joshmerrell.github.io/photo.jpg)
