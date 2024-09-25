@@ -1,0 +1,31 @@
+/* Print Stylesheet */
+
+@media print {
+    
+    body {
+        /* serif font for easier reading */
+        font-family: serif;
+        /* increase font size */
+        font-size: 1.25em;
+        background: none;
+    }
+
+    /* printer anchor links */
+    a[href]::after {
+        content: ": " attr(href); 
+    }
+
+    audio, .plyr {
+        display: none;
+    }
+
+    /* turn paragraphs into colums */
+    p {
+        columns: 2;
+    }
+
+    @page {
+        /* reset page margins */
+        margin: .25in;
+    }
+}
